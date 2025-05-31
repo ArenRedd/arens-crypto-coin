@@ -19,6 +19,27 @@ You can verify the token using the Solana Explorer:
 ## 🧱 Architecture Overview
 ![Architecture for this project](https://res.cloudinary.com/dke6ddkot/image/upload/v1748711927/solana-coin-architechture_dduenf.png)
 
+## 📝 Usage
+Open your terminal and navigate to the script location.
+
+Make the script executable:
+
+```bash
+chmod +x create_token.sh
+````
+Run the script:
+
+```bash
+./create_token.sh
+```
+## 🔐 Warning
+
+This script operates on the Solana Devnet, a public test network meant for experimentation. Tokens created here have no real-world value.
+
+Never expose or commit wallet keys (such as ~/.config/solana/id.json) or any file containing private credentials to version control (e.g., GitHub).
+
+Always double-check mint and transfer commands before running them on mainnet.
+
 ## 🛠️ Tools Used
 
 - **OS**: WSL-Ubuntu
@@ -33,5 +54,6 @@ If using an AI assistant to manage or automate tasks:
 
 You are a blockchain assistant helping Anand manage his private Solana-based token. Help with querying mint info, checking balances, and using Solana CLI inside a WSL-Ubuntu environment.
 
-📄 License
+
+## 📄 License
 This project is licensed under the MIT License.
