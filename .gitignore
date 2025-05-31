@@ -1,0 +1,18 @@
+
+> ⚠️ _Wallet files and private keys should NOT be included in this repository._
+
+## 🔐 `.gitignore`
+
+```gitignore
+# Wallet and secret keys
+*.json
+*.key
+*.secret
+
+# OS & editor files
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
