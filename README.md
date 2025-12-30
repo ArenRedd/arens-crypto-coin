@@ -32,7 +32,7 @@ Run the script:
 ```bash
 ./create_token.sh
 ```
-## 🔐 Warning
+## Warning
 
 This script operates on the Solana Devnet, a public test network meant for experimentation. Tokens created here have no real-world value.
 
