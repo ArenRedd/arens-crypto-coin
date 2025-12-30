@@ -40,7 +40,7 @@ Never expose or commit wallet keys (such as ~/.config/solana/id.json) or any fil
 
 Always double-check mint and transfer commands before running them on mainnet.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **OS**: WSL-Ubuntu
 - **Blockchain**: Solana (Devnet)
